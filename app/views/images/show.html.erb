@@ -1,0 +1,6 @@
+<p id="notice"><%= notice %></p>
+<h1><%= @image.title %></h1>
+<img src= "<%= @image.image_url %>" alt="Image">
+<h3>Published: <%= @image.published %></h3>
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>
